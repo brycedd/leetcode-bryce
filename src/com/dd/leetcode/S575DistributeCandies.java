@@ -16,7 +16,7 @@ import java.util.Set;
  * 链接：https://leetcode-cn.com/problems/distribute-candies
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class SDistributeCandies575 {
+public class S575DistributeCandies {
 
     public static void main(String[] args) {
         int[] a = {1,1,2,3,3,4,5,7,7,10};

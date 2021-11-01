@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @author Bryce_dd
  * @date 2021/11/
  */
-public class SMinimumMovesToEqualArrayElements453 {
+public class S453MinimumMovesToEqualArrayElements {
 
     public static void main(String[] args) {
         int[] nums = {3, 7, 5, 1, 0};
