@@ -1,8 +1,7 @@
 package com.dd.offer;
 
 /**
- * @author Bryce_dd
- * @date 2021/11/1
+ * @author Bryce_dd 2021/11/1
  * 统计一个数字在排序数组中出现的次数。
  */
 public class Offer53 {
