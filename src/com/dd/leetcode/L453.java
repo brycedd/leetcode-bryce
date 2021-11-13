@@ -4,13 +4,14 @@ import java.util.Arrays;
 
 /**
  * <strong>题目：</strong><br/>
+ * MinimumMovesToEqualArrayElements<br/>
  * 给你一个长度为 n 的整数数组，每次操作将会使 n - 1 个元素增加 1 。<br/>
  * 返回让数组所有元素相等的最小操作次数。
  *
  * @author Bryce_dd
  * @date 2021/11/
  */
-public class S453MinimumMovesToEqualArrayElements {
+public class L453 {
 
     public static void main(String[] args) {
         int[] nums = {3, 7, 5, 1, 0};
