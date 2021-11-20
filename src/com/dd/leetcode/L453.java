@@ -7,6 +7,7 @@ import java.util.Arrays;
  * MinimumMovesToEqualArrayElements<br/>
  * 给你一个长度为 n 的整数数组，每次操作将会使 n - 1 个元素增加 1 。<br/>
  * 返回让数组所有元素相等的最小操作次数。
+ *
  * @author Bryce_dd
  */
 public class L453 {
@@ -45,8 +46,9 @@ public class L453 {
      * 则等式成立： xn = (x - min)(n - 1) + sum;<br/>
      * 等式变换： x = min(1-n) + sum<br/>
      * 则变换次数为：x - min<br/>
-     * @param nums  数组
-     * @return  操作最小数
+     *
+     * @param nums 数组
+     * @return 操作最小数
      */
     public static int minMoves2(int[] nums) {
         if (null == nums || nums.length == 0) {
@@ -54,7 +56,7 @@ public class L453 {
         }
         int min = Arrays.stream(nums).min().getAsInt();
         int sum = Arrays.stream(nums).sum();
-        return min * (1 - nums.length) + sum -min;
+        return min * (1 - nums.length) + sum - min;
 
     }
 }
